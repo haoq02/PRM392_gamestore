@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "19262069895",
+    "project_id": "shopgame2k2",
+    "storage_bucket": "shopgame2k2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19262069895:android:5907b6e260fa7a5af3ac22",
+        "android_client_info": {
+          "package_name": "com.example.shopgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQq2c0I0nRI73hMBcKndsH8w1mo-lhaQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

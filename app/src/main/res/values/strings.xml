@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ShopGame</string>
+    <string name="product_image">Product Image</string>
+    <string name="product_list">List of products</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_description">Product Description</string>
+
+
+    <string-array name="price_ranges">
+        <item>All</item>
+        <item>Under $500</item>
+        <item>$500 - $1000</item>
+        <item>Above $1000</item>
+    </string-array>
+</resources>

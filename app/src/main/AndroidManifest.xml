@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShopGame"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Activities.ManageProductsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.AddProductActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.AdminDashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.EditProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.OrderHistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.ChangePasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.StoreMapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.CheckoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.ProfileActivity"
+            android:exported="true" /> <!-- Sign Up Activity -->
+        <activity
+            android:name=".Activities.SignUpActivity"
+            android:exported="true" /> <!-- Map Activity -->
+        <activity
+            android:name=".Activities.CartActivity"
+            android:exported="true" /> <!-- Product Details Activity -->
+        <activity
+            android:name=".Activities.ProductDetailsActivity"
+            android:exported="true" /> <!-- Product List Activity -->
+        <activity
+            android:name=".Activities.ProductListActivity"
+            android:exported="true" /> <!-- Login Activity (set as Launcher) -->
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyABtzfRwWNcKJU4m09k6KZtSDGd4ZOhMB4" />
+
+
+    </application>
+
+</manifest>
